@@ -1,0 +1,26 @@
+.nav-box-item{
+    display: block;
+    width: 200px ;
+    overflow: hidden !important;
+    border-radius: 10px;
+    margin:10px !important;
+    background-color: gray;
+    flex: 0 0 200px;
+    /* flex-grow flex-shrink flex-basis */
+}
+.nav-box-item img{
+    width:100%;
+    object-fit: cover;
+    height: 70%;    
+    max-height: 150px;
+}
+.nav-box-item .title{
+    height: 30%;
+    color: white;
+    padding:5px;
+    word-wrap: wrap;
+}
+.nav-boxes{
+    display:flex;
+    overflow-x: auto;
+}

@@ -1,0 +1,74 @@
+{
+  "icons": [
+    {
+      "emoji": "🏢",
+      "position": {
+        "lat": 13.115585,
+        "lng": 77.633392
+      },
+      "iconName": "Office",
+      "area": "Sathanur, Karnataka, India",
+      "notes": "",
+      "condition": null,
+      "icon": "officeIcon",
+      "distance": null,
+      "id": 73930385
+    },
+    {
+      "emoji": "🗑️",
+      "position": {
+        "lat": 13.116264,
+        "lng": 77.633037
+      },
+      "iconName": "Bin",
+      "area": "Sathanur, Karnataka, India",
+      "notes": "",
+      "condition": "empty",
+      "icon": "trashIcon",
+      "distance": null,
+      "id": 17806751
+    },
+    {
+      "emoji": "🗑️",
+      "position": {
+        "lat": 13.118677,
+        "lng": 77.632973
+      },
+      "iconName": "Bin",
+      "area": "Sathanur, Karnataka, India",
+      "notes": "",
+      "condition": "full",
+      "icon": "trashIcon",
+      "distance": null,
+      "id": 98443198
+    },
+    {
+      "emoji": "🗑️",
+      "position": {
+        "lat": 13.114174,
+        "lng": 77.633542
+      },
+      "iconName": "Bin",
+      "area": "Sathanur, Karnataka, India",
+      "notes": "",
+      "condition": "in repair",
+      "icon": "trashIcon",
+      "distance": null,
+      "id": 98443199
+    },
+    {
+      "emoji": "🏢",
+      "position": {
+        "lat": 13.113094,
+        "lng": 77.631167
+      },
+      "iconName": "Office",
+      "area": "Sathanur, Karnataka, India",
+      "notes": "",
+      "condition": null,
+      "icon": "officeIcon",
+      "distance": null,
+      "id": 98443200
+    }
+  ]
+}

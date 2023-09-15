@@ -1,0 +1,59 @@
+.login-page {
+  width: max-content;
+  min-width: 750px;
+  padding: 2.5rem 5rem;
+  margin: auto;
+  overflow: hidden;
+}
+@media screen and (max-width:600px) {
+  .login-page{
+    min-width: 300px;
+    width: 100%;
+    padding: 10px;
+  }
+}
+.form {
+  color: black;
+  border-radius: 7px;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.signUpTag {
+  margin-left: 4px;
+  color: blueviolet;
+  font-weight: bolder;
+  width: max-content;
+  text-decoration: none;
+}
+.signUpTag:hover {
+  border-bottom: 2px solid;
+}
+.perti {
+  margin-bottom: 10px;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 0.8rem 1.2rem;
+  font-family: inherit;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.2s;
+  background-color: #fff;
+  border: 1px solid grey;
+}
+
+input:focus {
+  outline: none;
+  background-color: var(--color-light--3);
+}

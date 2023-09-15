@@ -1,0 +1,8 @@
+.map-container {
+  height: 100vh;
+  padding: 1rem;
+
+  overscroll-behavior-y: none;
+  position: relative;
+  display: flex;
+}
