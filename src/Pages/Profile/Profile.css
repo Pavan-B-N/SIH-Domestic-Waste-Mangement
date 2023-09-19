@@ -1,0 +1,32 @@
+.profile-page {
+  /* border: 2px solid; */
+  text-align: center;
+  width: max-content;
+  min-width: 750px;
+  padding: 2.5rem 5rem;
+  margin: auto;
+  overflow: hidden;
+}
+@media screen and (max-width: 600px) {
+  .login-page {
+    min-width: 300px;
+    width: 100%;
+    padding: 10px;
+  }
+}
+.profileH2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.area {
+  margin-bottom: 40px;
+}
+
+.LogOutBtn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}

@@ -1,6 +1,6 @@
 import "./Home.css"
 
-import Description from '../../components/Description/Description';
+import Description from '../Description/Description';
 import NavBox from '../../components/NavBox/NavBox';
 import Carousel from '../../components/Carousel/Carousel';
 import TrackerBox from "../../components/TrackerBox/TrackerBox";

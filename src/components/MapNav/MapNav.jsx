@@ -6,10 +6,10 @@ function MapNav() {
     <nav className="nav">
       <ul>
         <li>
-          <NavLink to="bins">Bins</NavLink>
+          <NavLink to="bins" style={{color:"blue"}}>Bins</NavLink>
         </li>
         <li>
-          <NavLink to="offices">Offices</NavLink>
+          <NavLink to="offices" style={{color:"yellow"}}>Offices</NavLink>
         </li>
       </ul>
     </nav>

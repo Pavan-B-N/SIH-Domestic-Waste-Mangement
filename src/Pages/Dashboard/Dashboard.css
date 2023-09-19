@@ -1,3 +1,32 @@
 .dashboard{
-    
+    margin:15px;
+    overflow:auto;
+    width: calc(100% - 30px);
+}
+.dashboard-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.dashboard-table td{
+    text-align:center;
+    white-space: nowrap;
+    padding:10px;
+    color: rgb(73, 73, 73);
+}
+.dashboard-table tr{
+    padding:5px;
+    height: 50px;
+}
+.dashboard-table th{
+    background-color:rgb(212, 212, 60);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 1.25rem;
+}
+.resolve-btn{
+    padding:5px;
+    margin:5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
 }

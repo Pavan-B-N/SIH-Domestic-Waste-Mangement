@@ -44,7 +44,11 @@ function Header() {
                             // consist of view complaints,install dustbin,garbage truck connection,add BBMP office, appoint worker
                         )
                     }
-                    <Link to="/contact">Contact US</Link>
+                    {
+                        accountType === "ordinary" &&
+                        <Link to="/dashboard" className="nav-item" >Dahsboard</Link>
+                    }
+                    <Link to="/contact-us">Contact US</Link>
                     <Link to="/about">About US</Link>
 
 
@@ -75,7 +79,6 @@ function Header() {
                     open={isOfficeMenuOpen}
                     onClose={closeOfficeMenu}
                 >
-                    <MenuItem><Link to="/dashboard">View Compliants</Link></MenuItem>
                     <MenuItem><Link to="/install-dustbin">Install Dustbin</Link></MenuItem>
                     <MenuItem><Link to="/connect-grabage-truck">Connect Garbage truck</Link></MenuItem>
                     <MenuItem><Link to="/add-bbmp-office">Add BBMP Office</Link></MenuItem>

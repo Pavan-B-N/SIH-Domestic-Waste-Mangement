@@ -1,0 +1,54 @@
+.contactUs-page {
+  width: max-content;
+  min-width: 450px;
+  padding: 2.5rem 5rem;
+  margin: auto;
+  overflow: hidden;
+}
+@media screen and (max-width: 600px) {
+  .login-page {
+    min-width: 300px;
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom:30px;
+}
+
+.body {
+  display: flex;
+}
+
+.comm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.leftAlli {
+  display: block;
+}
+
+.display {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.icon {
+  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.comm {
+  width: 450px;
+}
+
+.bodyLeft {
+  margin-right: 30px;
+}

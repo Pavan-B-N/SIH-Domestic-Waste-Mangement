@@ -5,4 +5,5 @@
   overscroll-behavior-y: none;
   position: relative;
   display: flex;
+  color: wheat;
 }

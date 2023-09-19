@@ -1,6 +1,7 @@
 .nav {
   margin-top: 3rem;
   margin-bottom: 2rem;
+  
 }
 
 .nav ul {
@@ -24,5 +25,5 @@
 
 /* CSS Modules feature */
 .nav a:global(.active) {
-  background-color: var(--color-dark--0);
+  background-color: darkblue;
 }

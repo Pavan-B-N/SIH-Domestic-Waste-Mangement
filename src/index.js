@@ -7,9 +7,17 @@ import { useState } from 'react';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 function MainApplication(){
-    const [isLoggedIn,,setIsLoggedIn]=useState(false);
-    const [accountType,setAccountType]=useState("official");//ordinary or official
-    const globalData = {isLoggedIn,accountType};
+    const [isLoggedIn,setIsLoggedIn]=useState(false);
+    const [accountType,setAccountType]=useState("");//ordinary or official
+    const [token,setToken]=useState(null)
+    const [profile,setProfile]=useState(null);
+
+    const globalData = {
+        isLoggedIn,setIsLoggedIn,
+        accountType,setAccountType,
+        token,setToken,
+        profile,setProfile
+    };
 
     return (
         <AppContext.Provider value={globalData} >

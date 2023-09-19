@@ -5,6 +5,7 @@ import { useGeolocation } from "../../hooks/useGeolocation";
 import { useIcons } from "../../contexts/IconsContext";
 import { useEffect } from "react";
 
+
 function calculateDistance(lat1, lon1, lat2, lon2) {
   const R = 6371; // Radius of the Earth in kilometers
   const lat1Rad = (Math.PI * lat1) / 180;
